@@ -14,25 +14,25 @@ class Archpub < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.18.0/archpub-0.18.0-macos-arm64.tar.gz"
-      sha256 "de14e897e54472686b475ea52ebeac1a97dd9f7a4787457f99970c7b7fb9699e"
+      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.19.0/archpub-0.19.0-macos-arm64.tar.gz"
+      sha256 "4b08b32e292c8c1e0e7f40afadb305ae34a942ee599533b4a64e1ba79d24f5a8"
     end
     on_intel do
       # A formula must name a URL on every platform to load at all, so an
       # Intel Mac names the ARM64 archive that the requirement above refuses.
-      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.18.0/archpub-0.18.0-macos-arm64.tar.gz"
-      sha256 "de14e897e54472686b475ea52ebeac1a97dd9f7a4787457f99970c7b7fb9699e"
+      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.19.0/archpub-0.19.0-macos-arm64.tar.gz"
+      sha256 "4b08b32e292c8c1e0e7f40afadb305ae34a942ee599533b4a64e1ba79d24f5a8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.18.0/archpub-0.18.0-linux-arm64.tar.gz"
-      sha256 "c847397d3b34ed19ddcb07969615db2db3b7a0feda38ffee7e449ecbe80f06e3"
+      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.19.0/archpub-0.19.0-linux-arm64.tar.gz"
+      sha256 "fdbb6a563aa989ff0a7620dfca3a0f1ea8a26896b910efc0671a5f00f580aa20"
     end
     on_intel do
-      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.18.0/archpub-0.18.0-linux-x64.tar.gz"
-      sha256 "6bff38fc82d4d3a3e0e161683f579c9a305f01bc0c0080fd7f7f8b4ac09d3550"
+      url "https://github.com/HengYangDS/architecture-publisher/releases/download/v0.19.0/archpub-0.19.0-linux-x64.tar.gz"
+      sha256 "dfb5618d8d6b99e3510e906aa8f805aecaafc3c7dd3fa9138c7b669e2021493a"
     end
   end
 
